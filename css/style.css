@@ -1,0 +1,38 @@
+*{
+  font-family: 'ShreeDev0714','Lucida Grande',Arial,Helvetica,Verdana,sans-serif;
+}
+a{
+  text-decoration: none;
+  color :#333333;
+}
+a:hover{
+  border-bottom: 2px dotted;
+  color :#FF8B9D;
+}
+a:active{
+  border-bottom: 2px dotted;
+  color :#FF8B9D;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li{
+  padding: 0.5ex 0em 0.5ex;
+}
+
+h1{
+  margin: 0;
+  padding: 0.8ex 0em 0.8ex;
+  color :#333333;
+}
+.contents{
+  margin-top: 10%;
+}
+
+#icon{
+  border-radius: 100px;
+  width: 160px;
+}
