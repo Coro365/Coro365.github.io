@@ -1,5 +1,6 @@
-*{
+body{
   font-family: 'ShreeDev0714','Lucida Grande',Arial,Helvetica,Verdana,sans-serif;
+  -webkit-text-size-adjust: 100%;
 }
 a{
   text-decoration: none;
@@ -28,6 +29,7 @@ h1{
   padding: 0.8ex 0em 0.8ex;
   color :#333333;
 }
+
 .contents{
   margin-top: 10%;
 }
