@@ -37,4 +37,5 @@ h1{
 #icon{
   border-radius: 100px;
   width: 160px;
+  border: 2px #cccccc solid;
 }
