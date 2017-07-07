@@ -4,23 +4,23 @@ body{
   -webkit-text-size-adjust: 100%;
 }
 
-a{
+a, #more, #less{
   text-decoration: none;
   color :#333333;
 }
 
-a:hover{
+a:hover, #more:hover, #less:hover{
   border-bottom: 2px dotted;
   color :#ff8b9d;
 }
 
-ul{
+ul, #more, #less{
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-li{
+li, #more, #less{
   padding: 0.5ex 0 0.5ex;
 }
 
