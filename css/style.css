@@ -22,6 +22,7 @@ ul, #more, #less{
 
 li, #more, #less{
   padding: 0.5ex 0 0.5ex;
+  cursor : pointer;
 }
 
 h1{
