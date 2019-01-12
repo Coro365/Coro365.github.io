@@ -14,21 +14,21 @@ a:hover, #more:hover, #less:hover{
   color :#ff8b9d;
 }
 
-ul, #more, #less{
-  list-style-type: none;
+h1{
   margin: 0;
+  padding: 0.8ex;
+  color :#333333;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0.8ex;
   padding: 0;
 }
 
 li, #more, #less{
-  padding: 0.5ex 0 0.5ex;
+  padding: 0.8ex;
   cursor : pointer;
-}
-
-h1{
-  margin: 0;
-  padding: 0.8ex 0 0.8ex;
-  color :#333333;
 }
 
 .contents{
@@ -39,4 +39,14 @@ h1{
   border-radius: 100px;
   width: 160px;
   border: 2px #cccccc solid;
+}
+
+/* dark mode */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #042633;
+  }
+  h1, a, #more, #less{
+    color :#e4ebff;
+  }
 }
