@@ -7,10 +7,16 @@ body{
 a, #more, #less{
   text-decoration: none;
   color :#333333;
+  cursor : pointer;
 }
 
-a:hover, #more:hover, #less:hover{
+a:hover{
   border-bottom: 2px dotted;
+  color :#ff8b9d;
+}
+
+#more:hover, #less:hover{
+  text-decoration: none;
   color :#ff8b9d;
 }
 
@@ -28,7 +34,6 @@ ul{
 
 li, #more, #less{
   padding: 0.8ex;
-  cursor : pointer;
 }
 
 .contents{
