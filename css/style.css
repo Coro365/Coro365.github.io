@@ -1,8 +1,8 @@
 :root {
-  --light-text-color: #333333; /* black */
-  --hover-text-color: #ff8b9d; /* pink */
-  --dark-text-color: #e4ebff; /* white */
   --dark-bg-color: #042633; /* dark blue */
+  --dark-text-color: #e4ebff; /* white */
+  --hover-text-color: #ff8b9d; /* pink */
+  --light-text-color: #333333; /* black */
 }
 
 body {
@@ -12,10 +12,10 @@ body {
 }
 
 a {
-  text-decoration: none;
-  color: var(--light-text-color);
-  cursor: pointer;
   border-bottom: 2px dotted transparent;
+  cursor: pointer;
+  color: var(--light-text-color);
+  text-decoration: none;
   transition: 2s;
 }
 
@@ -26,9 +26,9 @@ a:hover {
 }
 
 h1 {
+  color: var(--light-text-color);
   margin: 0;
   padding: 0.8ex;
-  color: var(--light-text-color);
 }
 
 ul {
