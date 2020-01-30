@@ -5,8 +5,9 @@
   /* color */
   --dark-bg-color: #042633; /* dark blue */
   --dark-text-color: #e4ebff; /* white */
-  --hover-text-color: #ff8b9d; /* pink */
+  --dark-hover-text-color: #ff8b9d; /* pink */
   --light-text-color: #333333; /* black */
+  --light-hover-text-color: #e57d8d; /* dark pink */
   --my-icon-boder-color: #cccccc; /* white */
   /* time */
   --expandable-transition-time: .5s;
@@ -50,7 +51,7 @@
 
 .my-link > li > a:hover {
   border-bottom: 2px dotted;
-  color: var(--hover-text-color);
+  color: var(--light-hover-text-color);
   transition: var(--hover-transition-time);
 }
 
@@ -67,7 +68,7 @@
 }
 
 #expand-btn:hover::before {
-  color: var(--hover-text-color);
+  color: var(--light-hover-text-color);
   transition: var(--hover-transition-time);
 }
 
@@ -98,9 +99,15 @@
   :root {
     background-color: var(--dark-bg-color);
   }
+  
   .my-name,
   .my-link > li > a,
   #expand-btn::before {
     color: var(--dark-text-color);
+  }
+
+  .my-link > li > a:hover,
+  #expand-btn:hover::before {
+    color: var(--dark-hover-text-color);
   }
 }
