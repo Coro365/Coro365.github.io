@@ -17,16 +17,14 @@
   <link rel="stylesheet" href="./css/style.css">
   <link rel="shortcut icon" href="./images/favicon.ico">
   <link rel="apple-touch-icon" href="./images/apple-touch-icon.png">
-  <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
-  <script type="text/javascript" src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
-  <script src="./javascript/main.js"></script>
+  <script>console.log("applied style");</script>
   <title>Coro</title>
 </head>
 <body>
   <div class="contents">
     <img id="icon" src="./images/icon.jpeg" alt="icon">
     <h1>Coro</h1>
-    <ul id=links1>
+    <ul id=links>
       <li id="blog"><a rel="me" href="https://coro.hatenadiary.jp">Blog</a></li>
       <li id="gist"><a rel="me" href="https://gist.github.com/Coro365">Gist</a></li>
       <li id="github"><a rel="me" href="https://github.com/Coro365">Github</a></li>
@@ -35,9 +33,9 @@
       <li id="twitter"><a rel="me" href="https://twitter.com/Coro365">Twitter</a></li>
       <li id="tumblr"><a rel="me" href="https://coro365.tumblr.com">Tumblr</a></li>
     </ul>
-    <p id="more">▼</p>
-    <p id="less">▲</p>
-    <ul id=links2>
+    <input type="checkbox" id="expand-toggle" />
+    <label id="expand-btn" for="expand-toggle"></label>
+    <ul id="expand-links">
       <li id="hatena"><a rel="me" href="https://profile.hatena.ne.jp/Coro/">Hatena</a></li>
       <li id="wishlist"><a rel="me" href="https://www.amazon.co.jp/registry/wishlist/LWXIWDYTC6JU">WishList</a></li>
       <li id="instagram"><a rel="me" href="https://instagram.com/coro365">Instagram</a></li>
