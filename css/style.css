@@ -1,3 +1,10 @@
+:root {
+  --light-text-color: #333333; /* black */
+  --hover-text-color: #ff8b9d; /* pink */
+  --dark-text-color: #e4ebff; /* white */
+  --dark-bg-color: #042633; /* dark blue */
+}
+
 body {
   font-family: 'Monaco', 'Menlo', 'Helvetica', 'Verdana', 'sans-serif';
   text-align: center;
@@ -6,7 +13,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #333333;
+  color: var(--light-text-color);
   cursor: pointer;
   border-bottom: 2px dotted transparent;
   transition: 2s;
@@ -14,14 +21,14 @@ a {
 
 a:hover {
   border-bottom: 2px dotted;
-  color: #ff8b9d;
+  color: var(--hover-text-color);
   transition: .3s;
 }
 
 h1 {
   margin: 0;
   padding: 0.8ex;
-  color: #333333;
+  color: var(--light-text-color);
 }
 
 ul {
@@ -57,7 +64,7 @@ li {
 }
 
 #expand-btn:hover::before {
-  color: #ff8b9d;
+  color: var(--hover-text-color);
   transition: .3s;
 }
 
@@ -86,9 +93,9 @@ li {
 /* dark mode */
 @media (prefers-color-scheme: dark) {
   body {
-    background-color: #042633;
+    background-color: var(--dark-bg-color);
   }
   h1, a, #expand-btn::before {
-    color: #e4ebff;
+    color: var(--dark-text-color);
   }
 }
